@@ -2,7 +2,7 @@
   <div class="container">
     <div class="intro">
       <div class="intro__kicker">
-        Hey <i class="wave">👋</i>, ich bin
+        Hey<i class="wave">👋</i>, ich bin
       </div>
       <h1 class="intro__headline">
         <span class="intro__name">Sascha Helmund</span>
