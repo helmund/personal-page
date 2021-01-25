@@ -1,15 +1,69 @@
 <template>
-  <div class="container">
-    <div class="intro">
-      <div class="intro__kicker">
-        Hey<i class="wave">👋</i>, ich bin
+  <div>
+    <div class="container">
+      <div class="intro">
+        <div class="intro__kicker">
+          Hey<i class="wave">👋</i>, ich bin
+        </div>
+        <h1 class="intro__headline">
+          <span class="intro__name">Sascha Helmund</span>
+          <small class="intro__desc">
+            <i>👨🏻‍💻</i>Frontend-Entwickler aus <i>📍</i>Leipzig
+          </small>
+        </h1>
       </div>
-      <h1 class="intro__headline">
-        <span class="intro__name">Sascha Helmund</span>
-        <small class="intro__desc">
-          <i>👨🏻‍💻</i>Frontend-Entwickler aus <i>📍</i>Leipzig
-        </small>
-      </h1>
+    </div>
+    <div class="container">
+      <div class="resume">
+        <h2>Berufserfahrung</h2>
+        <ul class="resume__list">
+          <li class="resume__list-item">
+            <article class="resume-item">
+              <h3 class="resume-item__company">
+                Mogic GmbH
+              </h3>
+              2017 - heute
+              Teamleiter Frontend Entwicklung
+            </article>
+          </li>
+          <li class="resume__list-item">
+            <article class="resume-item">
+              <h3 class="resume-item__company">
+                Mogic GmbH
+              </h3>
+              2012 - heute
+              Frontend-Entwickler
+            </article>
+          </li>
+          <li class="resume__list-item">
+            <article class="resume-item">
+              <h3 class="resume-item__company">
+                Druck und Werte GmbH
+              </h3>
+              2011
+              Trainee Web-Entwicklung
+            </article>
+          </li>
+          <li class="resume__list-item">
+            <article class="resume-item">
+              <h3 class="resume-item__company">
+                Dirk Rossmann GmbH
+              </h3>
+              2008 - 2010
+              Merchandiser
+            </article>
+          </li>
+          <li class="resume__list-item">
+            <article class="resume-item">
+              <h3 class="resume-item__company">
+                SCS GMBH
+              </h3>
+              2004 - 2007
+              Ausbildung Mediengestalter
+            </article>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </template>
@@ -71,6 +125,18 @@ i {
   align-items: center;
   flex-direction: column;
   text-align: left;
+}
+
+.resume {
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  &__list-item {
+    padding: 10px 0;
+  }
 }
 
 .wave {
