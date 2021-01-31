@@ -1,6 +1,10 @@
-# Personal Page
+# saschahelmund.dev
+
+My personal page. Pretty WIP.
 
 ## Build Setup
+
+Nuxt.js
 
 ```bash
 # install dependencies
@@ -17,4 +21,3 @@ $ npm run start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
