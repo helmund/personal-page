@@ -11,7 +11,9 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Sascha Helmund ist ein Frontend Entwickler aus Leipzig' }
+      { hid: 'description', name: 'description', content: 'Sascha Helmund ist ein Frontend Entwickler aus Leipzig' },
+      { name: 'google-site-verification', content: '7WUBes9Qm_5jWF_pj06QLB_zNZgJnDOe6yAJsfuKiO8' }  
+
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
